@@ -1,0 +1,9 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: mongodb-config-map
+data:
+  databaseName: mainmng
+  username: root
+  password: Aa11111
+  databaseUrl: mongodb://localhost:27017
